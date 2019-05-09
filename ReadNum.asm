@@ -51,6 +51,7 @@ exit:
 	li $v0, 1
 	add $a0, $t2, $0
 	syscall
-
+	li $v0, 10
+	syscall 
 .end main
 	
